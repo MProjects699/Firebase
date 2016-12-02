@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "84461880163",
+    "firebase_url": "https://tfire-46b36.firebaseio.com",
+    "project_id": "tfire-46b36",
+    "storage_bucket": "tfire-46b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84461880163:android:a491b00f628671b3",
+        "android_client_info": {
+          "package_name": "android.flist.com.tfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84461880163-fmgj9imm9br1ha912uh0emn20rnfpdi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFduqgUe3RPi7_Cqp-g4_ki7kGPgKIXgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="android.flist.com.tfire.Home"
+    android:background="@android:color/holo_blue_dark">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+
+        <TextView
+        android:text="Click the any above link"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:layout_width="180dp"
+        android:layout_above="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:text="To go to the another activity"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        android:layout_weight="0.11"
+        android:layout_marginBottom="20dp"
+        android:layout_width="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView" />
+
+        <LinearLayout
+        android:orientation="vertical"
+            android:weightSum="1"
+        android:baselineAligned="false"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="300dp">
+
+            <Button
+                android:text="List View"
+                android:id="@+id/button1"
+                android:layout_above="@+id/button4"
+                android:layout_alignStart="@+id/button2"
+                android:textColor="#000000"
+                android:background="@drawable/rounded_corner"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp" />
+
+            <Button
+            android:text="Saving Data"
+            android:id="@+id/button2"
+            android:layout_above="@+id/button4"
+            android:layout_alignStart="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_corner"
+                android:layout_height="35dp"
+                android:layout_width="300dp" />
+
+            <Button
+            android:text="Login Authentication"
+            android:id="@+id/button4"
+            android:layout_above="@+id/button4"
+            android:layout_alignStart="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_corner"
+                android:layout_height="35dp"
+                android:layout_width="300dp" />
+
+            <Button
+                android:text="Simple Blog"
+                android:id="@+id/button8"
+                android:layout_above="@+id/button4"
+                android:layout_alignStart="@+id/button2"
+                android:textColor="#000000"
+                android:background="@drawable/rounded_corner"
+                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Firebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="24sp"
+            android:textColor="@color/buttonTextColor"
+            tools:textStyle="bold|italic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+
+        <ImageView
+            app:srcCompat="@mipmap/icon"
+            android:id="@+id/imageView"
+            android:layout_marginEnd="17dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_toStartOf="@+id/textView"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
